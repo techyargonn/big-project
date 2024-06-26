@@ -14,7 +14,7 @@
             <a class="nav-link active text-white" aria-current="page" href="/">Illustrations</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Artists</a>
+            <a class="nav-link text-white" href="{% url 'artists' %}">Artists</a>
           </li>
         </ul>
         <button type="button" class="btn btn-outline-primary" style="margin-right: 8px;">Sign up</button>
@@ -32,5 +32,62 @@
 
   <div class="" style="height: 500px; width: 100%;">
     <h2  class="text-center text-white mt-5">How does Doodle makes sharing your<br> projects simple and fun?</h2>
+  </div>
+
+  <hr>
+  <div class="blockcode">
+  
+    <footer class="page-footer shadow text-white">
+      <div class="d-flex flex-column mx-auto py-5" style="width: 70%">
+        <div class="d-flex flex-wrap justify-content-between">
+          <div class="align-self-center">
+            <a href="/#" class="d-flex align-items-center p-0 text-dark" style="text-decoration: none;">
+              <span class="h5 font-weight-bold text-white" style="margin-bottom: 160px;">Doodle</span>
+            </a>
+          </div>
+          <div>
+            <p class="h5 mb-4" style="font-weight: 600">Get to know us</p>
+            <ul class="p-0" style="list-style: none; cursor: pointer">
+              <li class="my-2">
+                <a class="text-white" href="/" style="text-decoration: none;">Illustrations</a>
+              </li>
+              <li class="my-2">
+                <a class="text-white" href="/" style="text-decoration: none;">Blog</a>
+              </li>
+              <li class="my-2">
+                <a class="text-white" href="/" style="text-decoration: none;">Artists</a>
+              </li>
+              <li class="my-2"><a class="text-white" href="/" style="text-decoration: none;">About Us</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="h5 mb-4" style="font-weight: 600">Help</p>
+            <ul class="p-0" style="list-style: none; cursor: pointer">
+              <li class="my-2">
+                <a class="text-white" href="/" style="text-decoration: none;">Support</a>
+              </li>
+              <li class="my-2">
+                <a class="text-white" href="/" style="text-decoration: none;">Sign Up</a>
+              </li>
+              <li class="my-2">
+                <a class="text-white" href="/" style="text-decoration: none;">Sign In</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <p class="h5 mb-4" style="font-weight: 600">Stay in touch</p>
+            <ul class="p-0" style="list-style: none; cursor: pointer">
+              <li class="my-2">
+                <a class="text-white" href="/" style="text-decoration: none;">Discord</a>
+              </li>
+              <li class="my-2">
+                <a class="text-white" href="/" style="text-decoration: none;">Instagram</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <small class="text-center mt-5">&copy; Doodle, 2024. All rights reserved.</small>
+      </div>
+    </footer>
   </div>
 {% endblock %}
