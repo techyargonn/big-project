@@ -4,73 +4,84 @@
 
 <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-      <a class="navbar-brand text-white" href="#">doodle</a>
+      <a class="navbar-brand text-dark" href="/">Doodle</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active text-white" aria-current="page" href="/">Illustrations</a>
+            <a class="nav-link active text-dark" aria-current="page" href="/">Illustrations</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="{% url 'artists' %}">Artists</a>
+            <a class="nav-link text-dark" href="{% url 'artists' %}">Artists</a>
           </li>
         </ul>
-        <button type="button" class="btn btn-outline-primary" style="margin-right: 8px;">Sign up</button>
-        <button type="button" class="btn btn-primary">Login</button>
+        <button type="button" class="btn btn-outline-success" style="margin-right: 8px;">Sign up</button>
+        <button type="button" class="btn btn-success">Login</button>
       </div>
     </div>
   </nav>
 
   <div style="height: 300px; width: 100%;" class="text-center">
-    <h1 class="text-white" style="margin-top: 180px;">Share your Illustrations with people like you</h1>
-    <p class="text-white">Create, share your creativity with artists across the globe. Try it! it is kind of fun</p>
-    <button type="button" class="btn btn-outline-primary btn-lg">Get Started!</button>
-    <button type="button" class="btn btn-outline-primary btn-lg">Learn More</button>
+    <h1 class="text-dark" style="margin-top: 180px;">Share your Illustrations with people like you</h1>
+    <p class="text-dark">Create, share your creativity with artists across the globe. Try it! it is kind of fun</p>
+    <button type="button" class="btn btn-outline-success btn-lg">Get Started!</button>
+    <button type="button" class="btn btn-outline-success btn-lg">Learn More</button>
   </div>
 
   <div class="" style="height: 500px; width: 100%;">
-    <h2  class="text-center text-white mt-5">How does Doodle makes sharing your<br> projects simple and fun?</h2>
+    <h2  class="text-center text-dark mt-5">How does Doodle makes sharing your<br> projects simple and fun?</h2>
+    
+    <div class="grid text-left">
+      <div class="g-col-6">
+        <h3 class="text-dark">Worry-Free license</h3>
+        <p class="text-dark">The Doodle license allows you to use every available graphic for personal and commercial purposes without the need for attribution.</p>
+      </div>
+      <div class="g-col-6">
+        <h3 class="text-dark">You have the control</h3>
+        <p class="text-dark">Doodle gives you control on every little piece of your artwork, you can share your artworkand create a perfect art portfolio</p>
+      </div>
+    </div>
   </div>
 
   <hr>
   <div class="blockcode">
   
-    <footer class="page-footer shadow text-white">
+    <footer class="page-footer text-dark">
       <div class="d-flex flex-column mx-auto py-5" style="width: 70%">
         <div class="d-flex flex-wrap justify-content-between">
           <div class="align-self-center">
             <a href="/#" class="d-flex align-items-center p-0 text-dark" style="text-decoration: none;">
-              <span class="h5 font-weight-bold text-white" style="margin-bottom: 160px;">Doodle</span>
+              <span class="h5 font-weight-bold text-dark" style="margin-bottom: 160px;">Doodle</span>
             </a>
           </div>
           <div>
             <p class="h5 mb-4" style="font-weight: 600">Get to know us</p>
             <ul class="p-0" style="list-style: none; cursor: pointer">
               <li class="my-2">
-                <a class="text-white" href="/" style="text-decoration: none;">Illustrations</a>
+                <a class="text-dark" href="/" style="text-decoration: none;">Illustrations</a>
               </li>
               <li class="my-2">
-                <a class="text-white" href="/" style="text-decoration: none;">Blog</a>
+                <a class="text-dark" href="/" style="text-decoration: none;">Blog</a>
               </li>
               <li class="my-2">
-                <a class="text-white" href="/" style="text-decoration: none;">Artists</a>
+                <a class="text-dark" href="{% url 'artists' %}" style="text-decoration: none;">Artists</a>
               </li>
-              <li class="my-2"><a class="text-white" href="/" style="text-decoration: none;">About Us</a></li>
+              <li class="my-2"><a class="text-dark" href="/" style="text-decoration: none;">About Us</a></li>
             </ul>
           </div>
           <div>
             <p class="h5 mb-4" style="font-weight: 600">Help</p>
             <ul class="p-0" style="list-style: none; cursor: pointer">
               <li class="my-2">
-                <a class="text-white" href="/" style="text-decoration: none;">Support</a>
+                <a class="text-dark" href="{% url 'contact' %}" style="text-decoration: none;">Contact</a>
               </li>
               <li class="my-2">
-                <a class="text-white" href="/" style="text-decoration: none;">Sign Up</a>
+                <a class="text-dark" href="/" style="text-decoration: none;">Sign Up</a>
               </li>
               <li class="my-2">
-                <a class="text-white" href="/" style="text-decoration: none;">Sign In</a>
+                <a class="text-dark" href="/" style="text-decoration: none;">Sign In</a>
               </li>
             </ul>
           </div>
@@ -78,10 +89,10 @@
             <p class="h5 mb-4" style="font-weight: 600">Stay in touch</p>
             <ul class="p-0" style="list-style: none; cursor: pointer">
               <li class="my-2">
-                <a class="text-white" href="/" style="text-decoration: none;">Discord</a>
+                <a class="text-dark" href="/" style="text-decoration: none;">Discord</a>
               </li>
               <li class="my-2">
-                <a class="text-white" href="/" style="text-decoration: none;">Instagram</a>
+                <a class="text-dark" href="/" style="text-decoration: none;">Instagram</a>
               </li>
             </ul>
           </div>
