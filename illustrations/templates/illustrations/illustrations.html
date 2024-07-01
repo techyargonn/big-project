@@ -35,7 +35,7 @@ Doodle - Illustrations
   <main style=" max-width: 1200px; margin: 30px auto; padding: 0 20px; width: 100%; display: grid; grid-auto-rows: 370px; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); grid-gap: 1em;">
     {% for doodle in post_doodle %}
     <div class="text-center" style="border-radius: 10px; padding: 20px; color: #000; border: 1px solid #000; transition: transform 0.2s ease; cursor: pointer; margin-top: 100px;" onmouseover="this.style.transform='translateY(-5px)';" onmouseout="this.style.transform='translateY(0px)';">
-      <img src="{{post_doodle.user.url}}" style=" margin-top: 30px;">
+      <img src="{{post_doodle.photo.url}}" style=" margin-top: 30px;">
       <h5>{{post_doodle.user.username}}</h5>
       <p>{{post_doodle.text}}</p>
     </div>
