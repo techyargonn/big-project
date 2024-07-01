@@ -17,8 +17,8 @@
           <a class="nav-link text-black" href="{% url 'artists' %}">Artists</a>
         </li>
       </ul>
-      <button type="button" class="btn btn-outline-success" style="margin-right: 8px;">Sign up</button>
-      <button type="button" class="btn btn-success">Login</button>
+      <a href="" class="btn btn-outline-success" style="margin-right: 8px;">Sign up</a>
+      <a class="btn btn-success">Login</a>
     </div>
   </div>
 </nav>
@@ -27,7 +27,6 @@
     <h1 class="text-black" style="margin-top: 180px;">Share your Illustrations with people like you</h1>
     <p class="text-black">Create, share your creativity with artists across the globe. Try it! it is kind of fun</p>
     <button type="button" class="btn btn-success btn-lg">Get Started</button>
-    <button type="button" class="btn btn-outline-success btn-lg">Learn More</button>
   </div>
 
   <div class="" style="width: 100%;">
@@ -75,6 +74,12 @@
     </main>
   </div>
 
+  <div class="text-center" style="height: 400px; width: 100%;">
+      <img src="{% static 'assets/image-7.png' %}">
+      <h2 class="text-center text-black">Share your first illustration!</h2>
+      <button type="button" class="btn btn-success btn-lg">Share Now!</button>
+  </div>
+
   <hr>
   <div class="blockcode">
   
@@ -98,7 +103,6 @@
               <li class="my-2">
                 <a class="text-black" href="{% url 'artists' %}" style="text-decoration: none;">Artists</a>
               </li>
-              <li class="my-2"><a class="text-black" href="/" style="text-decoration: none;">About Us</a></li>
             </ul>
           </div>
           <div>
@@ -111,7 +115,7 @@
                 <a class="text-black" href="/" style="text-decoration: none;">Sign Up</a>
               </li>
               <li class="my-2">
-                <a class="text-black" href="/" style="text-decoration: none;">Sign In</a>
+                <a class="text-black" href="/" style="text-decoration: none;">Login</a>
               </li>
             </ul>
           </div>
