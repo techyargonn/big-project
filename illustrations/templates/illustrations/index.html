@@ -11,13 +11,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active text-black" aria-current="page" href="/">Illustrations</a>
+          <a class="nav-link active text-black" aria-current="page" href="{% url 'illustrations' %}">Illustrations</a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-black" href="{% url 'artists' %}">Artists</a>
         </li>
       </ul>
-      <a href="" class="btn btn-outline-success" style="margin-right: 8px;">Sign up</a>
+      <a class="btn btn-outline-success" style="margin-right: 8px;">Sign up</a>
       <a class="btn btn-success">Login</a>
     </div>
   </div>
@@ -95,7 +95,7 @@
             <p class="h5 mb-4" style="font-weight: 600">Get to know us</p>
             <ul class="p-0" style="list-style: none; cursor: pointer">
               <li class="my-2">
-                <a class="text-black" href="/" style="text-decoration: none;">Illustrations</a>
+                <a class="text-black" href="{% url 'illustrations' %}" style="text-decoration: none;">Illustrations</a>
               </li>
               <li class="my-2">
                 <a class="text-black" href="/" style="text-decoration: none;">Blog</a>
